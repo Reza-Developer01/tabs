@@ -2,7 +2,7 @@
 
 **😃 In computing, tabbing navigation is the ability to navigate between focusable elements (such as hyperlinks and form controls) within a structured document or user interface (such as HTML) with the tab key of a computer keyboard. **
 
-- ✨ [Demo Project](https://reza-developer01.github.io/accardion/)
+- ✨ [Demo Project](https://reza-developer01.github.io/tabs/)
 
 - 👨‍💻 Developed by Reza Rashvand
 
