@@ -1,11 +1,4 @@
 @media screen and (min-width: 576px) {
-    body {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .tabs__wrapper {
         max-width: 50rem;
         margin-top: 0;
