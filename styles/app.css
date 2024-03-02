@@ -1,7 +1,7 @@
 /* ==== Variables ==== */
 :root {
     --primary-color: #3b82f6;
-    --secondary-color: #cbd5e1;
+    --secondary-color: #d1d5db;
     --black-color: #2B2B2B;
 }
 
@@ -28,4 +28,57 @@ body {
 
 
 /* ==== Start ==== */
+.tabs {}
+
+.tabs__wrapper {
+    max-width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10rem auto 0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.tabs__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 1.5rem;
+}
+
+.tabs__btn.active {
+    color: var(--primary-color);
+}
+
+.tabs__btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    font-family: "Poppins-Bold";
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.tabs__line {}
+
+.tabs__content {
+    margin-top: 1.5rem;
+}
+
+.tabs__content-item {
+    display: none;
+}
+
+.tabs__content-title {
+    font-family: "Poppins-Medium";
+    color: var(--black-color);
+}
+
+.tabs__content-text {
+    color: var(--black-color);
+}
+
 /* ==== Finish ==== */

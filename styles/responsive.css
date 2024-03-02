@@ -1,6 +1,30 @@
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-@media screen and (min-width: 768px) {}
+    .tabs__wrapper {
+        max-width: 50rem;
+        margin-top: 0;
+    }
+
+    .tabs__wrapper {
+        padding: 3rem;
+    }
+
+    .tabs__btn {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tabs__wrapper {
+        max-width: 50rem;
+    }
+}
 
 @media screen and (min-width: 992px) {}
 
